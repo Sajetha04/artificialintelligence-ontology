@@ -1,0 +1,293 @@
+@prefix : <http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/sajetha/ontologies/2024/10/resume> .
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#8825715092
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#8825715092> rdf:type owl:Class ;
+                                                                          
+                                                                          rdfs:subClassOf :Phone .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Areas_Of_Interest
+
+:Areas_Of_Interest rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#B.Tech_Information_Technology
+
+:B.Tech_Information_Technology rdf:type owl:Class ;
+                               
+                               rdfs:subClassOf :Madras_Institute_of_Technology .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#C,C++,PYTHON
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#C,C++,PYTHON> rdf:type owl:Class ;
+                                                                            
+                                                                            rdfs:subClassOf :Programming_languages .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#CGPA-8.41
+
+:CGPA-8.41 rdf:type owl:Class ;
+           
+           rdfs:subClassOf :B.Tech_Information_Technology .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Contact
+
+:Contact rdf:type owl:Class ;
+         
+         rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#DBMS
+
+:DBMS rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Areas_Of_Interest .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Database
+
+:Database rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Skills .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Education
+
+:Education rdf:type owl:Class ;
+           
+           rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Email
+
+:Email rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Contact .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#HSC
+
+:HSC rdf:type owl:Class ;
+     
+     rdfs:subClassOf :Velammal_Matric_Hr_Sec_School .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#HTML,CSS
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#HTML,CSS> rdf:type owl:Class ;
+                                                                        
+                                                                        rdfs:subClassOf :Web_Development .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#HTML,CSS,JS,PHP,MYSQL
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#HTML,CSS,JS,PHP,MYSQL> rdf:type owl:Class ;
+                                                                                     
+                                                                                     rdfs:subClassOf :Vehicle_Insurance_Management_System .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#HTML,Flask,Python
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#HTML,Flask,Python> rdf:type owl:Class ;
+                                                                                 
+                                                                                 rdfs:subClassOf :Predictive_typing_and_semantic_similarity_analyzer .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Madras_Institute_of_Technology
+
+:Madras_Institute_of_Technology rdf:type owl:Class ;
+                                
+                                rdfs:subClassOf :Education .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#MySQL
+
+:MySQL rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Database .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Name
+
+:Name rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Contact .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#OOPS
+
+:OOPS rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Areas_Of_Interest .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#OS
+
+:OS rdf:type owl:Class ;
+    
+    rdfs:subClassOf :Areas_Of_Interest .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Percent:96.4
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Percent:96.4> rdf:type owl:Class ;
+                                                                            
+                                                                            rdfs:subClassOf :SSLC .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Percent:97.95
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Percent:97.95> rdf:type owl:Class ;
+                                                                             
+                                                                             rdfs:subClassOf :HSC .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Phone
+
+:Phone rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Contact .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Predictive_typing_and_semantic_similarity_analyzer
+
+:Predictive_typing_and_semantic_similarity_analyzer rdf:type owl:Class ;
+                                                    
+                                                    rdfs:subClassOf :Projects .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Programming_languages
+
+:Programming_languages rdf:type owl:Class ;
+                       
+                       rdfs:subClassOf :Skills .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Projects
+
+:Projects rdf:type owl:Class ;
+          
+          rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Python,Deep_learning,CNN
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Python,Deep_learning,CNN> rdf:type owl:Class ;
+                                                                                        
+                                                                                        rdfs:subClassOf :Sign_Language_Translation_System .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#SSLC
+
+:SSLC rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Velammal_Matric_Hr_Sec_School .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Sajetha
+
+:Sajetha rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Name .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Sign_Language_Translation_System
+
+:Sign_Language_Translation_System rdf:type owl:Class ;
+                                  
+                                  rdfs:subClassOf :Projects .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Skills
+
+:Skills rdf:type owl:Class ;
+        
+        rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Vehicle_Insurance_Management_System
+
+:Vehicle_Insurance_Management_System rdf:type owl:Class ;
+                                     
+                                     rdfs:subClassOf :Projects .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Velammal_Matric_Hr_Sec_School
+
+:Velammal_Matric_Hr_Sec_School rdf:type owl:Class ;
+                               
+                               rdfs:subClassOf :Education .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#Web_Development
+
+:Web_Development rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf :Skills .
+
+
+
+###  http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#msajetha04@gmail.com
+
+<http://www.semanticweb.org/sajetha/ontologies/2024/10/resume#msajetha04@gmail.com> rdf:type owl:Class ;
+                                                                                    
+                                                                                    rdfs:subClassOf :Email .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
